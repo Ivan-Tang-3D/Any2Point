@@ -41,6 +41,7 @@ Real-world shape classification on the PB-T50-RS split of ScanObjectNN:
 | :-----: | :-----:|:-----:| :-----:|
 | Any2Point-Lang-CLIP | [Language_CLIP_Scan.log](https://drive.google.com/file/d/1NGBY87PiTf8mkAThRjJCiUsSidRv28Kb/view?usp=sharing) | 91.9% | [Language_CLIP_Scan.pth](https://drive.google.com/file/d/1votPHTcD3KQ6fmdcZvUCZc5yMq4xbK0V/view?usp=sharing) |
 | Any2Point-Vision-DINOV2 | [Vision_DINOV2_Scan.log](https://drive.google.com/file/d/1apIv0AOlL4utn7lXofhX_Tv2xy0EvAS_/view?usp=sharing) | 87.7% | [Vision_DINOV2_Scan.pth](https://drive.google.com/file/d/1cTCKNc5xfbMvLnQOj9BQf-uHg3Fime-W/view?usp=sharing) |
+| Any2Point-Audio-ImageBind | [Audio_imagebind_scan.log](https://drive.google.com/file/d/176DtBKcWyn1Y22w2X0vQ0qz0sYqBYofv/view?usp=sharing) | 87.0% | [Audio_imagebind_scan.pth](https://drive.google.com/file/d/1mKFeKVfSyiBba2DNEY6gPPqDrINQBS2F/view?usp=sharing) |
 
 ## Get Started
 
