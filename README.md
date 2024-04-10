@@ -12,7 +12,7 @@ Official implementation of ['Any2Point: Empowering Any-modality Large Models for
 </div>
 
 ## Main Results
-We report the pre-training modality (Pre-train), the number of learnable parameters (\#Param) on the "PB-T50-RS" split of ScanObjectNN (SCAN.) and ModelNet40 (MN.).{*} indicates utilizing the voting strategy.
+We report the pre-training modality (Pre-train), the number of learnable parameters (\#Param) on the "PB-T50-RS" split of ScanObjectNN (SCAN.) and ModelNet40 (MN.). * indicates utilizing the voting strategy.
 | Method                  | Pre-train  | #Param(M) | SCAN.(%) | MN.(%)   |
 |-------------------------|------------|-----------|----------|----------|
 | PointNet                | N/A        | 3.5       | 68.0     | 89.2     |
