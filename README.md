@@ -6,32 +6,32 @@ Official implementation of ['Any2Point: Empowering Any-modality Large Models for
 
 ## Introduction
 
-We propose the Point-PEFT, a novel framework for adapting point cloud pre-trained models with minimal learnable parameters. Specifically, for a pre-trained 3D model, we freeze most of its parameters, and only tune the newly added PEFT modules on downstream tasks, which consist of a Point-prior Prompt and a Geometry-aware Adapter. The Point-prior Prompt constructs a memory bank with domain-specific knowledge and utilizes a parameter-free attention for prompt enhancement. The Geometry-aware Adapter aims to aggregate point cloud features within spatial neighborhoods to capture fine-grained geometric information.
 
 <div align="center">
   <img src=""/>
 </div>
 
 ## Main Results
-Comparison with existing 3D pre-trained models on the PB-T50-RS split of ScanObjectNN:
-| Method | Parameters | PB-T50-RS|
-| :-----: | :-----: |:-----:|
-| [Point-BERT](https://github.com/lulutang0608/Point-BERT) | 22.1M | 83.1%| 
-| **+Point-PEFT** | **0.6M** | **85.0%**|
-| [Point-MAE-aug](https://github.com/Pang-Yatian/Point-MAE) | 22.1M | 88.1%|
-| **+Point-PEFT** | **0.7M** | **89.1%**|
-| [Point-M2AE-aug](https://github.com/ZrrSkywalker/Point-M2AE)| 12.9M | 88.1%|
-| **+Point-PEFT** | **0.7M** | **88.2%**|
+We report the pre-training modality (Pre-train), the number of learnable parameters (\#Param) on the "PB-T50-RS" split of ScanObjectNN (SCAN.) and ModelNet40 (MN.).{$^\dagger$} indicates utilizing the voting strategy.
+| Method                  | Pre-train  | #Param(M) | SCAN.(%) | MN.(%)   |
+|-------------------------|------------|-----------|----------|----------|
+| PointNet                | N/A        | 3.5       | 68.0     | 89.2     |
+| PointNet++              | N/A        | 1.5       | 77.9     | 90.7     |
+| DGCNN                   | N/A        | 1.8       | 78.1     | 92.9     |
+| PointMLP                | N/A        | 12.6      | 85.4     | 94.1     |
+| Point-PN                | N/A        | 0.8       | 87.1     | 93.8     |
+| PointNeXt               | N/A        | 1.4       | 87.7     | 94.0     |
+| Point-BERT              | 3D         | 22.1      | 83.1     | 92.7     |
+| Point-MAE               | 3D         | 22.1      | 85.2     | 93.2     |
+| Point-M2AE              | 3D         | 15.3      | 86.4     | 93.4     |
+| P2P-HorNet              | 2D         | 1.2       | 89.3     | 94.0$^\dagger$ |
+| ACT                     | 3D+2D      | 22.1      | 88.2     | 93.7     |
+| I2P-MAE                 | 3D+2D      | 12.9      | 90.1     | 93.7     |
+| ReCon                   | 3D+2D+Language | 43.6  | 90.6     | 94.1     |
+| Any2Point (Audio)       | Audio      | **0.8**   | **87.0** | **92.7** |
+| Any2Point (2D)          | 2D         | **0.8**   | **87.7** | **93.2** |
+| Any2Point (Language)    | Language   | **0.9**   | **91.9** | **94.3** |
 
-Comparison with existing 3D pre-trained models on the ModelNet40 without voting method:
-| Method | Parameters | Acc|
-| :-----: | :-----: |:-----:|
-| [Point-BERT](https://github.com/lulutang0608/Point-BERT) | 22.1M | 92.7%| 
-| **+Point-PEFT** | **0.6M** | **93.4%**|
-| [Point-MAE](https://github.com/Pang-Yatian/Point-MAE) | 22.1M | 93.2%|
-| **+Point-PEFT** | **0.8M** | **94.2%**|
-| [Point-M2AE](https://github.com/ZrrSkywalker/Point-M2AE)| 15.3M | 93.4%|
-| **+Point-PEFT** | **0.6M** | **94.1%**|
 
 
 ## Ckpt Release
