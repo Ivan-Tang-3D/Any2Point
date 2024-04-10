@@ -37,10 +37,10 @@ We report the pre-training modality (Pre-train), the number of learnable paramet
 ## Ckpt Release
 
 Real-world shape classification on the PB-T50-RS split of ScanObjectNN:
-| Method | Config | Acc.| Logs |
+| Method | Logs | Acc.| Ckpts |
 | :-----: | :-----:|:-----:| :-----:|
-| Point-M2AE-aug | [scan.yaml](https://drive.google.com/file/d/1JzYQKMTGLmT4cQ3HNI9g8rNHFovmPMgl/view?usp=sharing) | 88.2% | [scan_m2ae.log](https://drive.google.com/file/d/1Dx8ucp_7_2GtSe60wq3jsbtn4xUKHqM8/view?usp=sharing) |
-
+| Any2Point-Lang-CLIP | [Language_CLIP_Scan.log](https://drive.google.com/file/d/1NGBY87PiTf8mkAThRjJCiUsSidRv28Kb/view?usp=sharing) | 91.9% | [Language_CLIP_Scan.pth](https://drive.google.com/file/d/1votPHTcD3KQ6fmdcZvUCZc5yMq4xbK0V/view?usp=sharing) |
+| Any2Point-Vision-DINOV2 | [Vision_DINOV2_Scan.log](https://drive.google.com/file/d/1apIv0AOlL4utn7lXofhX_Tv2xy0EvAS_/view?usp=sharing) | 87.7% | [Vision_DINOV2_Scan.pth](https://drive.google.com/file/d/1cTCKNc5xfbMvLnQOj9BQf-uHg3Fime-W/view?usp=sharing) |
 
 ## Get Started
 
