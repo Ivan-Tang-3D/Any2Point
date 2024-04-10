@@ -12,7 +12,7 @@ Official implementation of ['Any2Point: Empowering Any-modality Large Models for
 </div>
 
 ## Main Results
-We report the pre-training modality (Pre-train), the number of learnable parameters (\#Param) on the "PB-T50-RS" split of ScanObjectNN (SCAN.) and ModelNet40 (MN.).{$^\dagger$} indicates utilizing the voting strategy.
+We report the pre-training modality (Pre-train), the number of learnable parameters (\#Param) on the "PB-T50-RS" split of ScanObjectNN (SCAN.) and ModelNet40 (MN.).{*} indicates utilizing the voting strategy.
 | Method                  | Pre-train  | #Param(M) | SCAN.(%) | MN.(%)   |
 |-------------------------|------------|-----------|----------|----------|
 | PointNet                | N/A        | 3.5       | 68.0     | 89.2     |
@@ -24,7 +24,7 @@ We report the pre-training modality (Pre-train), the number of learnable paramet
 | Point-BERT              | 3D         | 22.1      | 83.1     | 92.7     |
 | Point-MAE               | 3D         | 22.1      | 85.2     | 93.2     |
 | Point-M2AE              | 3D         | 15.3      | 86.4     | 93.4     |
-| P2P-HorNet              | 2D         | 1.2       | 89.3     | 94.0$^\dagger$ |
+| P2P-HorNet              | 2D         | 1.2       | 89.3     | 94.0*    |
 | ACT                     | 3D+2D      | 22.1      | 88.2     | 93.7     |
 | I2P-MAE                 | 3D+2D      | 12.9      | 90.1     | 93.7     |
 | ReCon                   | 3D+2D+Language | 43.6  | 90.6     | 94.1     |
