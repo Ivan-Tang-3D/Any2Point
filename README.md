@@ -91,8 +91,9 @@ The final directory structure should be:
 Please download the [CLIP_pre-train.pth](https://drive.google.com/file/d/1ok_f68lazKE-tcy_x_oJhhV58VdJnDXz/view?usp=sharing), [DINOV2_pre-train.pth](https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth) and [ImageBind_audio_pre-train.pth](https://drive.google.com/file/d/1TvpfMhKcYKdPNrQzRP0KVpXUm2LPiGtH/view?usp=sharing) into the corresponding `ckpts/` folder. 
 
 For the PB-T50-RS split of ScanObjectNN, run:
-```bash
+
 Any2Point_CLIP_Lang
+```bash
 sh fine_tune.sh
 ```
 
