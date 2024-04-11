@@ -47,6 +47,9 @@ Synthetic shape classification on the ModelNet40:
 | Method | Logs | Acc.| Ckpts |
 | :-----: | :-----:|:-----:| :-----:|
 | Any2Point-Lang-CLIP | [Language_CLIP_ModelNet.log](https://drive.google.com/file/d/1-yR0E9iN2XmMbqFylxdEeIRfYZu2DlAp/view?usp=sharing) | 94.3% | [Language_CLIP_ModelNet.pth](https://drive.google.com/file/d/1DCIA6gfCjwOmauo7m4gh03DxOQB5KG4d/view?usp=sharing) |
+| Any2Point-Vision-DINOV2 | [Vision_DINOV2_ModelNet.log](https://drive.google.com/file/d/122LQF8PkF8HiqkzP9OTdT34OrJmK4aKs/view?usp=sharing) | 93.2% | [Vision_DINOV2_ModelNet.pth](https://drive.google.com/file/d/1bApmj6GgCPcJrlm7Ke3pFs34LApGUnjX/view?usp=sharing) |
+| Any2Point-Audio-ImageBind | [Audio_imagebind_ModelNet.log](https://drive.google.com/file/d/1UBppIkS65TdgpCB-w6jju-atZ5Tqup3v/view?usp=sharing) | 92.7% | [Audio_imagebind_ModelNet.pth](https://drive.google.com/file/d/163-Pskgx8GXdlN26itbds8fqmfzTYMl2/view?usp=sharing) |
+
 
 ## Get Started
 
