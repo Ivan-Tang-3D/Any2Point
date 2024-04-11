@@ -1,0 +1,10 @@
+# ninja log v5
+2	8580	1697370203000000000	/mnt/petrelfs/guoziyu/PointNeXt/openpoints/cpp/pointnet2_batch/build/temp.linux-x86_64-3.8/src/ball_query.o	9a0c11f0c0e714cb
+3	8919	1697370204000000000	/mnt/petrelfs/guoziyu/PointNeXt/openpoints/cpp/pointnet2_batch/build/temp.linux-x86_64-3.8/src/sampling.o	c85e31a961e04eec
+2	8929	1697370204000000000	/mnt/petrelfs/guoziyu/PointNeXt/openpoints/cpp/pointnet2_batch/build/temp.linux-x86_64-3.8/src/group_points.o	ac04a500e046faa3
+2	8933	1697370204000000000	/mnt/petrelfs/guoziyu/PointNeXt/openpoints/cpp/pointnet2_batch/build/temp.linux-x86_64-3.8/src/interpolate.o	147b39d2a636d849
+2	21045	1697370216000000000	/mnt/petrelfs/guoziyu/PointNeXt/openpoints/cpp/pointnet2_batch/build/temp.linux-x86_64-3.8/src/pointnet2_api.o	a75441027489a9d3
+2	22173	1697370217000000000	/mnt/petrelfs/guoziyu/PointNeXt/openpoints/cpp/pointnet2_batch/build/temp.linux-x86_64-3.8/src/group_points_gpu.o	7f8ec8ae656118f7
+2	22252	1697370217000000000	/mnt/petrelfs/guoziyu/PointNeXt/openpoints/cpp/pointnet2_batch/build/temp.linux-x86_64-3.8/src/interpolate_gpu.o	3b0915c60c862df2
+2	22534	1697370217000000000	/mnt/petrelfs/guoziyu/PointNeXt/openpoints/cpp/pointnet2_batch/build/temp.linux-x86_64-3.8/src/ball_query_gpu.o	21f63e4dadb28fcd
+2	23161	1697370218000000000	/mnt/petrelfs/guoziyu/PointNeXt/openpoints/cpp/pointnet2_batch/build/temp.linux-x86_64-3.8/src/sampling_gpu.o	eb019cb6d27ea7e2

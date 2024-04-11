@@ -1,0 +1,16 @@
+# ninja log v5
+34	13961	1712839821000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/interpolation/interpolation_cuda.o	71418923fcbe4de
+32	14663	1712839821000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/knnquery/knnquery_cuda.o	6ff651ef82a8a20f
+33	14679	1712839821000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/sampling/sampling_cuda.o	d3d71e46f2a94456
+33	15006	1712839822000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/ballquery/ballquery_cuda.o	a44572f583dc3ea6
+35	15047	1712839822000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/aggregation/aggregation_cuda.o	7b7ccb33fdf1365a
+34	15097	1712839822000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/grouping/grouping_cuda.o	9d0c269e734eb622
+35	15483	1712839822000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/subtraction/subtraction_cuda.o	5c76350bc0ef456e
+33	33704	1712839841000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/pointops_api.o	7abbb3b8976d343a
+33	34093	1712839841000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/interpolation/interpolation_cuda_kernel.o	70579a1ad09c5db2
+35	34193	1712839841000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/subtraction/subtraction_cuda_kernel.o	5889d3a5d92343b2
+33	34340	1712839841000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/knnquery/knnquery_cuda_kernel.o	1282f1b3fa41e48d
+35	34671	1712839842000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/aggregation/aggregation_cuda_kernel.o	71a3536b27c32cb2
+34	34686	1712839842000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/sampling/sampling_cuda_kernel.o	e89cdb1d5da3ecc7
+34	35227	1712839842000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/ballquery/ballquery_cuda_kernel.o	b2fd513537886d1a
+34	36253	1712839843000000000	/mnt/petrelfs/guoziyu/PointNext_lang/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/grouping/grouping_cuda_kernel.o	9bc17f2471b8e003
