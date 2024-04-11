@@ -56,32 +56,18 @@ Synthetic shape classification on the ModelNet40:
 ### Installation
 Create a conda environment and install basic dependencies:
 ```bash
-git clone https://github.com/EvenJoker/Point-PEFT.git
-cd Point-PEFT
+git clone https://github.com/Ivan-Tang-3D/Any2Point_code.git
+cd Any2Point_code
 
-conda create -n point-peft python=3.8
-conda activate point-peft
+conda create -n Any2Point python=3.7
+conda activate Any2Point
 
 # Install the according versions of torch and torchvision
-conda install pytorch torchvision cudatoolkit
-# e.g., conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3
+conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
 
 pip install -r requirements.txt
 ```
-Install GPU-related packages:
-```bash
-# Chamfer Distance and EMD
-cd ./extensions/chamfer_dist
-python setup.py install --user
-cd ../emd
-python setup.py install --user
 
-# PointNet++
-pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2_ops_lib"
-
-# GPU kNN
-pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
-```
 ### Dataset
 For pre-training and fine-tuning, please follow [DATASET.md](https://github.com/lulutang0608/Point-BERT/blob/master/DATASET.md) to install ModelNet40, ScanObjectNN, and ShapeNetPart datasets, referring to Point-BERT. Specially Put the unzip folder under `data/`.
 
