@@ -75,7 +75,6 @@ The final directory structure should be:
 ```
 │Point-PEFT/
 ├──cfgs/
-├──datasets/
 ├──data/
 │   ├──ModelNet/
 │   ├──ScanObjectNN/
