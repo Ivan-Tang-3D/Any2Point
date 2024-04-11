@@ -58,8 +58,8 @@ Synthetic shape classification on the ModelNet40:
 ### Installation
 Create a conda environment and install basic dependencies:
 ```bash
-git clone https://github.com/Ivan-Tang-3D/Any2Point_code.git
-cd Any2Point_code
+git clone https://github.com/Ivan-Tang-3D/Any2Point.git
+cd Any2Point
 
 conda create -n Any2Point python=3.7
 conda activate Any2Point
@@ -79,7 +79,7 @@ The Language Part Training just occupies 26GB Memory.
 
 The final directory structure should be:
 ```
-│Any2Point_code/
+│Any2Point/
 ├──Any2Point_CLIP_Lang/
 ├──data/
 │   ├──ModelNet/
