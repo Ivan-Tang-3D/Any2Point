@@ -79,8 +79,8 @@ The Language Part Training just occupies 26GB Memory.
 
 The final directory structure should be:
 ```
-│Point-PEFT/
-├──cfgs/
+│Any2Point_code/
+├──Any2Point_CLIP_Lang/
 ├──data/
 │   ├──ModelNet/
 │   ├──ScanObjectNN/
@@ -92,7 +92,8 @@ Please download the [CLIP_pre-train.pth](https://drive.google.com/file/d/1ok_f68
 
 For the PB-T50-RS split of ScanObjectNN, run:
 ```bash
-sh Finetune_cache_prompt_scan.sh
+Any2Point_CLIP_Lang
+sh fine_tune.sh
 ```
 
 ## Acknowledgement
