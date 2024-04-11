@@ -75,6 +75,7 @@ source install.sh
 
 ### Dataset
 For pre-training and fine-tuning, please follow [DATASET.md](https://github.com/lulutang0608/Point-BERT/blob/master/DATASET.md) to install ModelNet40, ScanObjectNN, and ShapeNetPart datasets, referring to Point-BERT. Specially Put the unzip folder under `data/`.
+The Language Part Training just occupies 26GB Memory.
 
 The final directory structure should be:
 ```
