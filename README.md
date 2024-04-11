@@ -63,7 +63,7 @@ conda create -n Any2Point python=3.7
 conda activate Any2Point
 
 # Install the according versions of torch and torchvision
-conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
+conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch
 
 pip install -r requirements.txt
 ```
