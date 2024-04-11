@@ -65,10 +65,8 @@ conda activate Any2Point
 # Install the according versions of torch and torchvision
 conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch
 
-pip install -r requirements.txt
-
 conda install -c pyg pytorch-cluster pytorch-scatter pytorch-sparse -y
-pip install torch-geometric
+pip install torch-geometric==2.0
 ```
 
 ### Dataset
