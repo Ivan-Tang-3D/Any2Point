@@ -67,6 +67,8 @@ conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit
 
 conda install -c pyg pytorch-cluster pytorch-scatter pytorch-sparse -y
 pip install torch-geometric==2.0
+
+source install.sh
 ```
 
 ### Dataset
