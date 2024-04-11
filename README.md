@@ -94,6 +94,7 @@ For the PB-T50-RS split of ScanObjectNN, run:
 
 Any2Point_CLIP_Lang
 ```bash
+cd Any2Point_CLIP_Lang
 sh fine_tune.sh
 ```
 
