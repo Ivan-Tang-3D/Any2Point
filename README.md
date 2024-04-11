@@ -1,5 +1,6 @@
 # Any2Point: Empowering Any-modality Large Models for Efficient 3D Understanding
 Official implementation of ['Any2Point: Empowering Any-modality Large Models for Efficient 3D Understanding']().
+**The reamining will be open-source soon!**
 
 <p align="center">                                                                                                                                          <img src="Teaser_any.png"/ width="70%"> <br>
 </p>
@@ -85,7 +86,7 @@ The final directory structure should be:
 ```
 
 ### Fine-tuning
-Please download the [ckpt-best.pth](https://drive.google.com/file/d/16oJrxbLlDLMp1nA8W3EEjRA-cENReAU9/view?usp=sharing), [pre-train.pth](https://drive.google.com/file/d/1m9biTvZN098NP3IwJuTt3kWI0t-sIKSn/view?usp=sharing) and [cache_shape.pt](https://drive.google.com/file/d/1YdUlBL2QpimMBvyK3XaDcUCVxMQP1-1h/view?usp=sharing) into the `ckpts/` folder. 
+Please download the [CLIP_pre-train.pth](https://drive.google.com/file/d/1ok_f68lazKE-tcy_x_oJhhV58VdJnDXz/view?usp=sharing), [DINOV2_pre-train.pth](https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth) and [ImageBind_audio_pre-train.pth](https://drive.google.com/file/d/1TvpfMhKcYKdPNrQzRP0KVpXUm2LPiGtH/view?usp=sharing) into the corresponding `ckpts/` folder. 
 
 For the PB-T50-RS split of ScanObjectNN, run:
 ```bash
