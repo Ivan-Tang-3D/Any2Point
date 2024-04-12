@@ -1,0 +1,16 @@
+# ninja log v5
+6	10128	1706855348000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/subtraction/subtraction_cuda.o	85e808049133691c
+5	10448	1706855349000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/knnquery/knnquery_cuda.o	e71202b10587f583
+6	10506	1706855349000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/interpolation/interpolation_cuda.o	227801f816d5533e
+6	10559	1706855349000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/grouping/grouping_cuda.o	e9606f9c06fdce80
+6	10776	1706855349000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/aggregation/aggregation_cuda.o	4dbb160a136f01dd
+5	10785	1706855349000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/ballquery/ballquery_cuda.o	ab60418c0181351b
+6	10848	1706855349000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/sampling/sampling_cuda.o	52aa54f3f4556799
+5	25374	1706855364000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/pointops_api.o	4ba48e1fafe7ee55
+7	27328	1706855366000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/subtraction/subtraction_cuda_kernel.o	b6f6849e22d9bdbc
+6	27409	1706855366000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/ballquery/ballquery_cuda_kernel.o	2dabd77063de931e
+6	27435	1706855366000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/grouping/grouping_cuda_kernel.o	59d74d4ef9bfef37
+5	27624	1706855366000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/knnquery/knnquery_cuda_kernel.o	45a526a58304a9b3
+5	27711	1706855366000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/interpolation/interpolation_cuda_kernel.o	af7e37ec04d25bf8
+6	28147	1706855367000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/sampling/sampling_cuda_kernel.o	52865244943bff4e
+7	28392	1706855367000000000	/mnt/petrelfs/tangyiwen/PointNeXt/openpoints/cpp/pointops/build/temp.linux-x86_64-3.7/src/aggregation/aggregation_cuda_kernel.o	c8f6a865864a9b0b
