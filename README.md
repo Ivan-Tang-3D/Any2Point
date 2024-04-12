@@ -1,5 +1,5 @@
 # Any2Point: Empowering Any-modality Large Models for Efficient 3D Understanding
-Official implementation of ['Any2Point: Empowering Any-modality Large Models for Efficient 3D Understanding']().
+Official implementation of ['Any2Point: Empowering Any-modality Large Models for Efficient 3D Understanding'](https://arxiv.org/pdf/2404.07989.pdf).
 
 **The reamining will be open-source soon!**
 
