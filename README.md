@@ -117,6 +117,11 @@ Any2Point_CLIP_Lang
 cd Any2Point_clip_lang_modelnet
 sh fine_tune.sh
 ```
+Any2Point_DINOV2
+```bash
+cd Any2Point_DINOV2_modelnet
+sh fine_tune.sh
+```
 
 ## Acknowledgement
 This repo benefits from [Pix4Point](https://github.com/guochengqian/Pix4Point), [Point-NN](https://github.com/ZrrSkywalker/Point-NN), [PointTransformerV2](https://github.com/Pointcept/PointTransformerV2), [Openpoints](https://github.com/guochengqian/openpoints). Thanks for their wonderful works.
