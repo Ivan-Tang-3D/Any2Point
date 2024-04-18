@@ -126,5 +126,16 @@ cd Any2Point_ImageBind_Modelnet
 sh fine_tune.sh
 ```
 
+### Citation
+If you find our paper and code useful in your research, please consider giving a star ⭐ and citation 📝.
+```bash
+@article{tang2024any2point,
+  title={Any2Point: Empowering Any-modality Large Models for Efficient 3D Understanding},
+  author={Tang, Yiwen and Liu, Jiaming and Wang, Dong and Wang, Zhigang and Zhang, Shanghang and Zhao, Bin and Li, Xuelong},
+  journal={arXiv preprint arXiv:2404.07989},
+  year={2024}
+}
+```
+
 ## Acknowledgement
 This repo benefits from [Pix4Point](https://github.com/guochengqian/Pix4Point), [Point-NN](https://github.com/ZrrSkywalker/Point-NN), [PointTransformerV2](https://github.com/Pointcept/PointTransformerV2), [Openpoints](https://github.com/guochengqian/openpoints). Thanks for their wonderful works.
