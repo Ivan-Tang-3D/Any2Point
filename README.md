@@ -1,8 +1,6 @@
 # Any2Point: Empowering Any-modality Large Models for Efficient 3D Understanding
 Official implementation of ['Any2Point: Empowering Any-modality Large Models for Efficient 3D Understanding'](https://arxiv.org/pdf/2404.07989.pdf).
 
-**The reamining about ModelNet40 will be open-source soon!**
-
 **[2023.9] We release AAAI2024 ['Point-PEFT'](https://arxiv.org/abs/2310.03059), adapting 3D pre-trained Models with 1% parameters to downstream tasks .**
 
 <p align="center">                                                                                                                                          <img src="Teaser_any.png"/ width="70%"> <br>
