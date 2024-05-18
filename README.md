@@ -5,7 +5,7 @@ Official implementation of ['Any2Point: Empowering Any-modality Large Models for
 
 **[2023.9] We release AAAI2024 ['Point-PEFT'](https://arxiv.org/abs/2310.03059), adapting 3D pre-trained Models with 1% parameters to downstream tasks .**
 
-**The results of Any2Point on ShapeNetPart will be released soon!**
+****[2024.5] The results of Any2Point on ShapeNetPart will be released soon!**
 
 <p align="center">                                                                                                                                          <img src="Teaser_any.png"/ width="70%"> <br>
 </p>
