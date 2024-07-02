@@ -7,6 +7,8 @@ Official implementation of ['Any2Point: Empowering Any-modality Large Models for
 
 **[2024.5] The results of Any2Point on ShapeNetPart will be released soon!**
 
+**[2024.7] Any2Point has been accepted by ECCV 2024!**
+
 <p align="center">                                                                                                                                          <img src="Teaser_any.png"/ width="70%"> <br>
 </p>
 
